@@ -1,0 +1,53 @@
+{
+  "type": "network",
+  "version": "1.0",
+  "data": "data.json",
+  "logo": {
+    "file": "",
+    "link": "",
+    "text": "Norangom"
+  },
+  "text": {
+    "more": "\u003cp\u003e\n등장인물을 모두 정리한 그래프\n\u003c/p\u003e\n사람 위주",
+    "intro": "감독과 배우 사이를 시각화했습니다.",
+    "title": "영화 감독과 배우"
+  },
+  "legend": {
+    "edgeLabel": "영화 감독과 배우 사이",
+    "colorLabel": "배우",
+    "nodeLabel": "영화 감독과 배우"
+  },
+  "features": {
+    "search": true,
+    "groupSelectorAttribute": "In-Degree",
+    "hoverBehavior": "dim"
+  },
+  "informationPanel": {
+    "groupByEdgeDirection": false,
+    "imageAttribute": false
+  },
+  "sigma": {
+    "drawingProperties": {
+      "defaultEdgeType": "curve",
+      "defaultHoverLabelBGColor": "#002147",
+      "defaultLabelBGColor": "#ddd",
+      "activeFontStyle": "bold",
+      "defaultLabelColor": "#000",
+      "labelThreshold": 10,
+      "defaultLabelHoverColor": "#fff",
+      "fontStyle": "bold",
+      "hoverFontStyle": "bold",
+      "defaultLabelSize": 14
+    },
+    "graphProperties": {
+      "maxEdgeSize": 0.5,
+      "minEdgeSize": 0.2,
+      "minNodeSize": 1,
+      "maxNodeSize": 7
+    },
+    "mouseProperties": {
+      "maxRatio": 20,
+      "minRatio": 0.75
+    }
+  }
+}
